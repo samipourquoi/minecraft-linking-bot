@@ -1,7 +1,7 @@
 # How to use it
 
 First of all, install [node.js](https://nodejs.org/en/)
-You must first open this folder (use "cd path/to/directory") and then type "npm install" in the console. It will install all the require libraries.
+Once installed, open this folder (use "cd path/to/directory") and then type "npm install" in the console. It will install all the require libraries.
 Launch the bot with "node main.js".
 You can have as many servers as you like in the ocnfig.json file!
 Don't forget to activate in each server.properties these fields:

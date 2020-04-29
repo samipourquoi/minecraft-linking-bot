@@ -1,0 +1,15 @@
+{
+    "token": "",
+    "prefix": "!",
+    "serverOPs": [],
+    "servers": {
+        "Server": {
+            "ip": "localhost",
+            "rconPassword": "supersecret",
+            "rconPort": "25575",
+            "queryPort": "25565",
+            "bridgeChannelID": "",
+            "logFile": "path/to/latest.log"
+        }
+    }
+}

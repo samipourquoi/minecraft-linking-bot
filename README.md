@@ -20,6 +20,4 @@ In addition of the minecraft linking, you can also do:
 - !online: gives a list of all the online players on every server
 
 # Credits
-Developped by samipourquoi
-Some ideas come from Daniel (from the Hypnos server)
-Bot made for the Minecraft technical server called [EndTech](https://endte.ch).
+Developped by samipourquoi. Some ideas come from Daniel (from the Hypnos server). Bot made for the Minecraft technical server called [EndTech](https://endte.ch).

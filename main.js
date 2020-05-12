@@ -79,7 +79,9 @@ function setup() {
                         !line.includes('UUID of player') &&
                         !line.includes('logged in with entity id') &&
                         !line.includes('[Rcon:') &&
-                        !line.includes('Mismatch')                        
+                        !line.includes('Mismatch') &&
+                        !lines.includes('Fetching packet') &&
+                        !lines.includes('com.mojang.authlib') // It says the ip adress…
                         /*
                         All of these are for only letting through the messages and not the "private" informations
                         */
@@ -225,7 +227,7 @@ client.on('message', message => {
 
                 if (command[1] != undefined) {
 
-                    let goodRCON = RCONs["Survival"];
+                    let goodRCON = RCONs[config.toWhatServerGetScoreboard];
 
                     if (serverChannels.includes(message.channel.id)) for (let i = 0; i < serverChannels.length; i++) {
                         if (config.servers[serverNames[i]].bridgeChannelID == message.channel.id) goodRCON = RCONs[serverNames[i]];

@@ -2,6 +2,7 @@
     "token": "",
     "prefix": "!",
     "serverOPs": [],
+    "toWhatServerGetScoreboard": "Server",
     "servers": {
         "Server": {
             "ip": "localhost",

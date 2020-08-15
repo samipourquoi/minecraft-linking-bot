@@ -10,7 +10,8 @@
             "rconPort": "25575",
             "queryPort": "25565",
             "bridgeChannelID": "",
-            "logFile": "path/to/latest.log"
+            "logFile": "path/to/latest.log",
+            "whitelistPath": ""
         }
     }
 }

@@ -37,7 +37,7 @@ function getWhitelist(rcon) {
         }
     }
 
-    let data = fs.readFileSync(path.dirname(path.dirname(server.logFile)) + '/whitelist.json'); // Reads whitelist.json
+    let data = fs.readFileSync(server.whitelistPath); // Reads whitelist.json
     data = JSON.parse(data);
 
     let players = [];

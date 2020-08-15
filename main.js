@@ -80,8 +80,8 @@ function setup() {
                         !line.includes('logged in with entity id') &&
                         !line.includes('[Rcon:') &&
                         !line.includes('Mismatch') &&
-                        !lines.includes('Fetching packet') &&
-                        !lines.includes('com.mojang.authlib') // It says the ip adress…
+                        !line.includes('Fetching packet') &&
+                        !line.includes('com.mojang.authlib') // It says the ip adress…
                         /*
                         All of these are for only letting through the messages and not the "private" informations
                         */
